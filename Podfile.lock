@@ -1,12 +1,23 @@
 PODS:
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - DateTools (1.7.0)
+  - TGCameraViewController (2.2.6)
   - YYCache (1.0.4)
 
 DEPENDENCIES:
+  - ChameleonFramework
+  - DateTools
+  - TGCameraViewController
   - YYCache
 
 SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  TGCameraViewController: 167f47b0257993a713ea4fac25c6084edacfbf85
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 7db5ee9c6fbefe63ad87d9b5e5fcfa6dbf7099a4
+PODFILE CHECKSUM: 318a633adb593d751b6f8f87f9f9393a9cb7abb2
 
 COCOAPODS: 1.1.1

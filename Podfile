@@ -2,10 +2,22 @@
 # platform :ios, '9.0'
 
 target 'ThirdPackerDemo-Object-C' do
-  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
+    
+    
+    # 内存磁盘缓存操作
 pod 'YYCache'
-  # Pods for ThirdPackerDemo-Object-C
+
+# 变色龙
+pod 'ChameleonFramework'
+
+#时间工具
+pod 'DateTools'
+
+#相机相册调用
+pod 'TGCameraViewController'
+
+
+
 
   target 'ThirdPackerDemo-Object-CTests' do
     inherit! :search_paths

@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ChameleonFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>DateTools.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ThirdPackerDemo-Object-C.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -19,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>TGCameraViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>YYCache.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,7 +42,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0332C9A812A3F1C4C502B41A28EBBAAC</key>
+		<key>049DC0466734D97B130461597908752E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2F4C340BFFA7CDC4160AD3AF8399E13D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>31FF44B5E2FF8CF00090950A8B67AFF6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -37,7 +62,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>50B83940C1C7B5D309C605B00C41544D</key>
+		<key>935A7E52B6D8B7E37EAEA138EDC52155</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A74ABB993FF9A87BDFBA21E07EC64A19</key>
 		<dict>
 			<key>primary</key>
 			<true/>

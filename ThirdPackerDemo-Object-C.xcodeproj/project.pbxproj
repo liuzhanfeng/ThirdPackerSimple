@@ -15,6 +15,17 @@
 		3CF3B66C1E5EC516004E2C0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF3B66A1E5EC516004E2C0E /* LaunchScreen.storyboard */; };
 		3CF3B6771E5EC516004E2C0E /* ThirdPackerDemo_Object_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3B6761E5EC516004E2C0E /* ThirdPackerDemo_Object_CTests.m */; };
 		3CF3B6821E5EC516004E2C0E /* ThirdPackerDemo_Object_CUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3B6811E5EC516004E2C0E /* ThirdPackerDemo_Object_CUITests.m */; };
+		3CF3B6B01E5EED42004E2C0E /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3B6961E5EED42004E2C0E /* NSDate+Extension.m */; };
+		3CF3B6B11E5EED42004E2C0E /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3B6981E5EED42004E2C0E /* NSDate+Utilities.m */; };
+		3CF3B6B21E5EED42004E2C0E /* NSFileManager+Paths.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3B69B1E5EED42004E2C0E /* NSFileManager+Paths.m */; };
+		3CF3B6B31E5EED42004E2C0E /* NSString+PinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3B69E1E5EED42004E2C0E /* NSString+PinYin.m */; };
+		3CF3B6B41E5EED42004E2C0E /* NSString+UrlEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3B6A01E5EED42004E2C0E /* NSString+UrlEncode.m */; };
+		3CF3B6B51E5EED42004E2C0E /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3B6A31E5EED42004E2C0E /* UIImage+Color.m */; };
+		3CF3B6B61E5EED42004E2C0E /* UIImage+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3B6A51E5EED42004E2C0E /* UIImage+Size.m */; };
+		3CF3B6B71E5EED42004E2C0E /* UINavigationController+JZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3B6A81E5EED42004E2C0E /* UINavigationController+JZExtension.m */; };
+		3CF3B6B81E5EED42004E2C0E /* UINavigationController+StackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3B6AA1E5EED42004E2C0E /* UINavigationController+StackManager.m */; };
+		3CF3B6B91E5EED42004E2C0E /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3B6AD1E5EED42004E2C0E /* UIView+Extensions.m */; };
+		3CF3B6BA1E5EED42004E2C0E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3B6AF1E5EED42004E2C0E /* UIView+Frame.m */; };
 		5BF840FA033A2574F28F54FD /* libPods-ThirdPackerDemo-Object-C.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E7097CBC9FC4AA34220452 /* libPods-ThirdPackerDemo-Object-C.a */; };
 		8F3E9DB5A2ADAB5282605EA0 /* libPods-ThirdPackerDemo-Object-CUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D43F6A6CBF9483BFF2388853 /* libPods-ThirdPackerDemo-Object-CUITests.a */; };
 		B99D27BD979CCAE1C2CC05FF /* libPods-ThirdPackerDemo-Object-CTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3824D65D8475643BCE34713 /* libPods-ThirdPackerDemo-Object-CTests.a */; };
@@ -58,6 +69,29 @@
 		3CF3B67D1E5EC516004E2C0E /* ThirdPackerDemo-Object-CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ThirdPackerDemo-Object-CUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF3B6811E5EC516004E2C0E /* ThirdPackerDemo_Object_CUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdPackerDemo_Object_CUITests.m; sourceTree = "<group>"; };
 		3CF3B6831E5EC516004E2C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF3B6901E5ED505004E2C0E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3CF3B6951E5EED42004E2C0E /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		3CF3B6961E5EED42004E2C0E /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		3CF3B6971E5EED42004E2C0E /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		3CF3B6981E5EED42004E2C0E /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		3CF3B69A1E5EED42004E2C0E /* NSFileManager+Paths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Paths.h"; sourceTree = "<group>"; };
+		3CF3B69B1E5EED42004E2C0E /* NSFileManager+Paths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Paths.m"; sourceTree = "<group>"; };
+		3CF3B69D1E5EED42004E2C0E /* NSString+PinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PinYin.h"; sourceTree = "<group>"; };
+		3CF3B69E1E5EED42004E2C0E /* NSString+PinYin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PinYin.m"; sourceTree = "<group>"; };
+		3CF3B69F1E5EED42004E2C0E /* NSString+UrlEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UrlEncode.h"; sourceTree = "<group>"; };
+		3CF3B6A01E5EED42004E2C0E /* NSString+UrlEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UrlEncode.m"; sourceTree = "<group>"; };
+		3CF3B6A21E5EED42004E2C0E /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		3CF3B6A31E5EED42004E2C0E /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		3CF3B6A41E5EED42004E2C0E /* UIImage+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Size.h"; sourceTree = "<group>"; };
+		3CF3B6A51E5EED42004E2C0E /* UIImage+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Size.m"; sourceTree = "<group>"; };
+		3CF3B6A71E5EED42004E2C0E /* UINavigationController+JZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+JZExtension.h"; sourceTree = "<group>"; };
+		3CF3B6A81E5EED42004E2C0E /* UINavigationController+JZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+JZExtension.m"; sourceTree = "<group>"; };
+		3CF3B6A91E5EED42004E2C0E /* UINavigationController+StackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+StackManager.h"; sourceTree = "<group>"; };
+		3CF3B6AA1E5EED42004E2C0E /* UINavigationController+StackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+StackManager.m"; sourceTree = "<group>"; };
+		3CF3B6AC1E5EED42004E2C0E /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
+		3CF3B6AD1E5EED42004E2C0E /* UIView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extensions.m"; sourceTree = "<group>"; };
+		3CF3B6AE1E5EED42004E2C0E /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		3CF3B6AF1E5EED42004E2C0E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		88453656DFD05E64C5BCC626 /* Pods-ThirdPackerDemo-Object-CTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdPackerDemo-Object-CTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdPackerDemo-Object-CTests/Pods-ThirdPackerDemo-Object-CTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE620E4CD85ADF971F14D885 /* Pods-ThirdPackerDemo-Object-CUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdPackerDemo-Object-CUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdPackerDemo-Object-CUITests/Pods-ThirdPackerDemo-Object-CUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B3824D65D8475643BCE34713 /* libPods-ThirdPackerDemo-Object-CTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThirdPackerDemo-Object-CTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +152,7 @@
 		3CF3B65B1E5EC516004E2C0E /* ThirdPackerDemo-Object-C */ = {
 			isa = PBXGroup;
 			children = (
+				3CF3B6921E5EED42004E2C0E /* Extensions */,
 				3CF3B65F1E5EC516004E2C0E /* AppDelegate.h */,
 				3CF3B6601E5EC516004E2C0E /* AppDelegate.m */,
 				3CF3B6621E5EC516004E2C0E /* ViewController.h */,
@@ -126,6 +161,7 @@
 				3CF3B6681E5EC516004E2C0E /* Assets.xcassets */,
 				3CF3B66A1E5EC516004E2C0E /* LaunchScreen.storyboard */,
 				3CF3B66D1E5EC516004E2C0E /* Info.plist */,
+				3CF3B6901E5ED505004E2C0E /* PrefixHeader.pch */,
 				3CF3B65C1E5EC516004E2C0E /* Supporting Files */,
 			);
 			path = "ThirdPackerDemo-Object-C";
@@ -155,6 +191,91 @@
 				3CF3B6831E5EC516004E2C0E /* Info.plist */,
 			);
 			path = "ThirdPackerDemo-Object-CUITests";
+			sourceTree = "<group>";
+		};
+		3CF3B6921E5EED42004E2C0E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3CF3B6931E5EED42004E2C0E /* Categories */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3CF3B6931E5EED42004E2C0E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3CF3B6941E5EED42004E2C0E /* NSDate */,
+				3CF3B6991E5EED42004E2C0E /* NSFileManager */,
+				3CF3B69C1E5EED42004E2C0E /* NSString */,
+				3CF3B6A11E5EED42004E2C0E /* UIImage */,
+				3CF3B6A61E5EED42004E2C0E /* UINavigationController */,
+				3CF3B6AB1E5EED42004E2C0E /* UIView */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3CF3B6941E5EED42004E2C0E /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				3CF3B6951E5EED42004E2C0E /* NSDate+Extension.h */,
+				3CF3B6961E5EED42004E2C0E /* NSDate+Extension.m */,
+				3CF3B6971E5EED42004E2C0E /* NSDate+Utilities.h */,
+				3CF3B6981E5EED42004E2C0E /* NSDate+Utilities.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		3CF3B6991E5EED42004E2C0E /* NSFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				3CF3B69A1E5EED42004E2C0E /* NSFileManager+Paths.h */,
+				3CF3B69B1E5EED42004E2C0E /* NSFileManager+Paths.m */,
+			);
+			path = NSFileManager;
+			sourceTree = "<group>";
+		};
+		3CF3B69C1E5EED42004E2C0E /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				3CF3B69D1E5EED42004E2C0E /* NSString+PinYin.h */,
+				3CF3B69E1E5EED42004E2C0E /* NSString+PinYin.m */,
+				3CF3B69F1E5EED42004E2C0E /* NSString+UrlEncode.h */,
+				3CF3B6A01E5EED42004E2C0E /* NSString+UrlEncode.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		3CF3B6A11E5EED42004E2C0E /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				3CF3B6A21E5EED42004E2C0E /* UIImage+Color.h */,
+				3CF3B6A31E5EED42004E2C0E /* UIImage+Color.m */,
+				3CF3B6A41E5EED42004E2C0E /* UIImage+Size.h */,
+				3CF3B6A51E5EED42004E2C0E /* UIImage+Size.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		3CF3B6A61E5EED42004E2C0E /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				3CF3B6A71E5EED42004E2C0E /* UINavigationController+JZExtension.h */,
+				3CF3B6A81E5EED42004E2C0E /* UINavigationController+JZExtension.m */,
+				3CF3B6A91E5EED42004E2C0E /* UINavigationController+StackManager.h */,
+				3CF3B6AA1E5EED42004E2C0E /* UINavigationController+StackManager.m */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		3CF3B6AB1E5EED42004E2C0E /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				3CF3B6AC1E5EED42004E2C0E /* UIView+Extensions.h */,
+				3CF3B6AD1E5EED42004E2C0E /* UIView+Extensions.m */,
+				3CF3B6AE1E5EED42004E2C0E /* UIView+Frame.h */,
+				3CF3B6AF1E5EED42004E2C0E /* UIView+Frame.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		FA5C4A6C37D851DB93C97EF3 /* Pods */ = {
@@ -463,9 +584,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CF3B6B01E5EED42004E2C0E /* NSDate+Extension.m in Sources */,
 				3CF3B6641E5EC516004E2C0E /* ViewController.m in Sources */,
+				3CF3B6B61E5EED42004E2C0E /* UIImage+Size.m in Sources */,
 				3CF3B6611E5EC516004E2C0E /* AppDelegate.m in Sources */,
+				3CF3B6B41E5EED42004E2C0E /* NSString+UrlEncode.m in Sources */,
+				3CF3B6B31E5EED42004E2C0E /* NSString+PinYin.m in Sources */,
 				3CF3B65E1E5EC516004E2C0E /* main.m in Sources */,
+				3CF3B6B91E5EED42004E2C0E /* UIView+Extensions.m in Sources */,
+				3CF3B6B51E5EED42004E2C0E /* UIImage+Color.m in Sources */,
+				3CF3B6B11E5EED42004E2C0E /* NSDate+Utilities.m in Sources */,
+				3CF3B6BA1E5EED42004E2C0E /* UIView+Frame.m in Sources */,
+				3CF3B6B21E5EED42004E2C0E /* NSFileManager+Paths.m in Sources */,
+				3CF3B6B81E5EED42004E2C0E /* UINavigationController+StackManager.m in Sources */,
+				3CF3B6B71E5EED42004E2C0E /* UINavigationController+JZExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,6 +748,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CZHZJ4VRGZ;
+				GCC_PREFIX_HEADER = "/Users/block/Desktop/ThirdPackerDemo-Object-C/ThirdPackerDemo-Object-C/PrefixHeader.pch";
 				INFOPLIST_FILE = "ThirdPackerDemo-Object-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Transfer.ThirdPackerDemo-Object-C";
@@ -629,6 +762,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CZHZJ4VRGZ;
+				GCC_PREFIX_HEADER = "/Users/block/Desktop/ThirdPackerDemo-Object-C/ThirdPackerDemo-Object-C/PrefixHeader.pch";
 				INFOPLIST_FILE = "ThirdPackerDemo-Object-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Transfer.ThirdPackerDemo-Object-C";

@@ -16,7 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    YYCache *cache = [[YYCache alloc] initWithName:@"mydb"];
+    
+    [cache setValue:@"刘占峰" forKey:@"name"];
+    
+    NSLog(@"%@",[cache valueForKey:@"name"]);
+    
 }
 
 
